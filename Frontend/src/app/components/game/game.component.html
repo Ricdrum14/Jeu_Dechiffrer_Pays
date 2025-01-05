@@ -1,0 +1,35 @@
+<div class="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div class="bg-white rounded-lg shadow-lg p-6 max-w-md w-full text-center">
+      <h1 class="text-3xl font-bold text-gray-800 mb-4">Déchiffrer le Pays</h1>
+      <p class="text-lg text-gray-600 mb-6">Trouvez le pays à partir de l'anagramme :</p>
+  
+      <!-- Anagramme affiché -->
+      <div class="bg-blue-100 text-blue-800 rounded-lg py-2 px-4 inline-block mb-4">
+        <span class="text-2xl font-semibold">{{ anagram }}</span>
+      </div>
+  
+      <!-- Input utilisateur -->
+      <input
+        [(ngModel)]="userAnswer"
+        type="text"
+        placeholder="Entrez votre réponse"
+        name="userAnswer" 
+        id="userAnswerField"  
+        class="w-full border-2 border-gray-300 focus:ring-2 focus:ring-blue-500 rounded-lg px-4 py-2 mb-4 text-gray-700 text-lg"
+      />
+  
+      <!-- Bouton Valider -->
+      <button
+        (click)="checkAnswer()"
+        class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200"
+      >
+        Valider
+      </button>
+  
+      <!-- Message de résultat avec couleur dynamique -->
+      <p *ngIf="resultMessage" [ngClass]="resultClass" class="mt-4 text-lg font-medium">
+        {{ resultMessage }}
+      </p>
+    </div>
+  </div>
+  

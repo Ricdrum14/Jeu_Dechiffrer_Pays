@@ -1,0 +1,96 @@
+{
+    "anagrammes": [
+      {
+        "id": 1,
+        "anagramme": "Ebrise",
+        "solution": "Serbie",
+        "indice": {
+          "capitale": "Belgrade",
+          "drapeau": "🇷🇸"
+        }
+      },
+      {
+        "id": 2,
+        "anagramme": "Narefc",
+        "solution": "France",
+        "indice": {
+          "capitale": "Paris",
+          "drapeau": "🇫🇷"
+        }
+      },
+      {
+        "id": 3,
+        "anagramme": "Nari",
+        "solution": "Iran",
+        "indice": {
+          "capitale": "Téhéran",
+          "drapeau": "🇮🇷"
+        }
+      },
+      {
+        "id": 4,
+        "anagramme": "Opuré",
+        "solution": "Pérou",
+        "indice": {
+          "capitale": "Lima",
+          "drapeau": "🇵🇪"
+        }
+      },
+      {
+        "id": 5,
+        "anagramme": "EdnI",
+        "solution": "Inde",
+        "indice": {
+          "capitale": "New Delhi",
+          "drapeau": "🇮🇳"
+        }
+      },
+      {
+        "id": 6,
+        "anagramme": "Nogoc",
+        "solution": "Congo",
+        "indice": {
+          "capitale": "Brazzaville",
+          "drapeau": "🇨🇬"
+        }
+      },
+      {
+        "id": 7,
+        "anagramme": "Giegéor",
+        "solution": "Géorgie",
+        "indice": {
+          "capitale": "Tbilissi",
+          "drapeau": "🇬🇪"
+        }
+      },
+      {
+        "id": 8,
+        "anagramme": "Usède",
+        "solution": "Suède",
+        "indice": {
+          "capitale": "Stockholm",
+          "drapeau": "🇸🇪"
+        }
+      },
+      {
+        "id": 9,
+        "anagramme": "Magnelale",
+        "solution": "Allemagne",
+        "indice": {
+          "capitale": "Berlin",
+          "drapeau": "🇩🇪"
+        }
+      },
+      {
+        "id": 10,
+        "anagramme": "Ithïa",
+        "solution": "Haïti",
+        "indice": {
+          "capitale": "Port-au-Prince",
+          "drapeau": "🇭🇹"
+        }
+      }
+      
+    ]
+  }
+  
